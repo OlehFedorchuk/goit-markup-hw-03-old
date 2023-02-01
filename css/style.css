@@ -4,8 +4,33 @@
     --remove-marker-list: none;
 }
 
+/*-------------Style reset------------ */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+
 
 }
 
@@ -62,7 +87,23 @@ body {
     list-style-type: var(--remove-marker-list)
 }
 
-/*----------------Section Hero---------------*/
+.container {
+    width: 100%;
+    max-width: 1470px;
+    /* height: 72px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    outline: 2px solid tomato;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+/*----------------Hero---------------*/
 .section-hero,
 .footer {
     background-color: var(--main-page-color);
